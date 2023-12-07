@@ -1,0 +1,79 @@
+/* booking.css */
+
+.booking-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .booking__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .booking__top h3 {
+    margin: 0;
+  }
+  
+  .booking__top span {
+    color: #777;
+  }
+  
+  .tour__rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--secondary-color);
+  }
+  
+  .booking__form {
+    margin-top: 20px;
+  }
+  
+  .booking__form h5 {
+    margin-bottom: 10px;
+  }
+  
+  .booking__info-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .booking__info-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .booking__info-form input[type="date"] {
+    width: calc(50% - 5px);
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .gap-1 {
+    gap: 5px;
+  }
+  
+  .gap-3 {
+    gap: 15px;
+  }
+  

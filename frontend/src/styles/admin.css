@@ -1,0 +1,99 @@
+/* Style pour le conteneur principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Style pour le formulaire */
+  form {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-right: 20px; /* Ajout de marge entre le formulaire et le tableau */
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+ .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Style pour la table */
+  table {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  /* Style pour les boutons d'action */
+  
+  h3{
+    text-align: center;
+    color: purple;
+    text-decoration: underline;
+  }
+  h1{
+    text-align: center;
+    color: black;
+
+  }
+  .action-buttons button {
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  /* Style pour le bouton "Update" */
+  .update-btn {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+  
+  /* Style pour le bouton "Delete" */
+  .delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
